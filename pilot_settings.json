@@ -1,6 +1,6 @@
 {
 	"Vehicle":"Tank",
-	"NavServiceUrl":"http://10.0.0.122:8000",
+	"NavServiceUrls":["http://192.168.0.100:8000","http://10.0.0.122:8000"],
 	"Altitude":9.0,
 	"CacheLocations" : {
 		"Maps":"/home/matt/projects/pilot_cache/maps",
