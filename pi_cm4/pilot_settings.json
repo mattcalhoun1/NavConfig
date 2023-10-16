@@ -1,7 +1,8 @@
 {
 	"Vehicle":"MecCar",
 	"NavServiceUrls":["http://localhost:8000","http://10.0.0.122:8000"],
-	"Altitude":10.5,
+	"XXX_Altitude":10.5,
+	"Altitude":35.0,
 	"CacheLocations" : {
 		"Maps":"/home/matt/projects/pilot_cache/maps",
 		"Models":"/home/matt/projects/pilot_cache/models",
@@ -10,12 +11,12 @@
 	"Cameras": {
 		"Right":{
 			"Config":"PI3_STD_HQ_CROPPED_1",
-			"DefaultHeading":143.5,
+			"DefaultHeading":123.0,
 			"Enabled":true
 		},
 		"Left":{
 			"Config":"PI3_STD_HQ_CROPPED_0",
-			"DefaultHeading":36.5,
+			"DefaultHeading":57.0,
 			"Enabled":true
 		}
 	}
