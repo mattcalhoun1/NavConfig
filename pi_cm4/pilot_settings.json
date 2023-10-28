@@ -4,6 +4,8 @@
 	"LidarEnabledPositioning":true,
 	"LidarEnabledSearch":true,
 	"Altitude":10.5,
+	"MultithreadedPositioning":true,
+	"EstimatorMode":"VERY_PRECISE",
 	"XXX_Altitude":35.0,
 	"CacheLocations" : {
 		"Maps":"/home/matt/projects/pilot_cache/maps",
