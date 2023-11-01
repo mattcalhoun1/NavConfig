@@ -1,0 +1,113 @@
+{
+	"Altitude":34.5,
+	"Cameras": {
+		"Right":{
+			"Config":"PI3_STD_HQ_CROPPED_1",
+			"DefaultHeading":143.5,
+			"Enabled":true
+		},
+		"Left":{
+			"Config":"PI3_STD_HQ_CROPPED_0",
+			"DefaultHeading":36.5,
+			"Enabled":true
+		}
+	},
+	"Models": {
+		"lights": {
+			"ModelType":"lite",
+			"LabelFile":"/home/matt/projects/NavModels/lights/lightslabelmap.txt",
+			"ModelFile":"/home/matt/projects/NavModels/lights/lights_640.tflite",
+			"LandmarkType":"emitter"
+		},
+		"basement": {
+			"ModelType":"lite",
+			"LabelFile":"/home/matt/projects/NavModels/basement/basement.txt",
+			"ModelFile":"/home/matt/projects/NavModels/basement/basement_640.tflite",
+			"LandmarkType":"basic"
+		}
+	},
+	"Maps": {
+		"Basement": 
+			{
+			    "Landmarks": {
+				"w_windmill": {
+				    "pattern":"na",
+				    "type":"gazing_ball",
+				    "model":"basement",
+				    "x":-132,
+				    "y":0,
+				    "height":12.0,
+				    "altitude":6.0,
+				    "confidence":0.6
+				},
+				"ne_tree": {
+				    "pattern":"na",
+				    "type":"cat_tree",
+				    "model":"basement",
+				    "x":80,
+				    "y":100,
+				    "height":24.5,
+				    "altitude":12.25,
+				    "confidence":0.6
+				},
+				"n_pineapple": {
+				    "pattern":"na",
+				    "type":"pineapple",
+				    "model":"basement",
+				    "x":0,
+				    "y":132,
+				    "height":14.0,
+				    "altitude":7.0,
+				    "confidence":0.6
+				},   
+				"nw_house": {
+				    "pattern":"na",
+				    "type":"house",
+				    "model":"basement",
+				    "x":-70,
+				    "y":65,
+				    "height":7.75,
+				    "altitude":3.875,
+				    "confidence":0.6
+				},
+				"e_light": {
+				    "pattern":"2",
+				    "type":"light",
+				    "model":"lights",
+				    "x":136,
+				    "y":-28,
+				    "height":11,
+				    "altitude":29,
+				    "confidence":0.25
+				},
+				"nw_light": {
+				    "pattern":"4",
+				    "type":"light",
+				    "model":"lights",
+				    "x":-112,
+				    "y":130,
+				    "height":42,
+				    "altitude":21,
+				    "confidence":0.25
+				},                
+				"e_ball": {
+				    "pattern":"na",
+				    "type":"gazing_ball",
+				    "model":"basement",
+				    "x":72,
+				    "y":1,
+				    "height":10.5,
+				    "altitude":5.25,
+				    "confidence":0.6
+				}
+			    },
+			    "Shape":"rectangle",
+			    "Boundaries" : {
+				"xmin":-150,
+				"ymin":-150,
+				"xmax":200,
+				"ymax":200
+			    }
+			}
+	}
+}
