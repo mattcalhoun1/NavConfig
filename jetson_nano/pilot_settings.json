@@ -5,8 +5,8 @@
 	"LidarEnabledPositioning":true,
 	"LidarEnabledSearch":true,
 	"Altitude":44.0,
-	"MultithreadedPositioning":false,
-	"EstimatorMode":"VERY_PRECISE",
+	"MultithreadedPositioning":true,
+	"EstimatorMode":"PRECISE",
 	"MinObjectConfidence":0.2,
 	"CacheLocations" : {
 		"Maps":"/home/matt/projects/pilot_cache/maps",
@@ -17,14 +17,16 @@
 		"Right":{
 			"Config":"PI2_STD_HQ_CROPPED_0",
 			"DefaultHeading":123.0,
+			"AlternateHeadings":[100.0,180.0,230.0],
 			"Enabled":true,
-			"VehicleBaseId":0
+			"VehicleBaseId":1
 		},
 		"Left":{
 			"Config":"PI2_STD_HQ_CROPPED_1",
 			"DefaultHeading":57.0,
+			"AlternateHeadings":[80.0,0.0,-50.0],
 			"Enabled":true,
-			"VehicleBaseId":1
+			"VehicleBaseId":0
 		}
 	}
 }
