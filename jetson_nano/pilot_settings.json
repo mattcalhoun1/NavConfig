@@ -7,6 +7,7 @@
 	"Altitude":44.0,
 	"MultithreadedPositioning":true,
 	"EstimatorMode":"PRECISE",
+	"SmoothingCyclesPerImage":3,
 	"MinObjectConfidence":0.2,
 	"CacheLocations" : {
 		"Maps":"/home/matt/projects/pilot_cache/maps",
