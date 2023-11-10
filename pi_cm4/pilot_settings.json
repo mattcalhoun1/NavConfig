@@ -4,6 +4,8 @@
 	"NavServiceUrls":["http://localhost:8000","http://10.0.0.122:8000"],
 	"LidarEnabledPositioning":true,
 	"LidarEnabledSearch":true,
+	"LidarMaxDriftDegrees":1.5,
+	"LidarMaxVisualDistVariancePct": 0.33,
 	"Altitude":10.5,
 	"MultithreadedPositioning":true,
 	"xEstimatorMode":"VERY_PRECISE",
