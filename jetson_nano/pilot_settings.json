@@ -6,6 +6,7 @@
 	"LidarEnabledSearch":true,
 	"LidarMaxDriftDegrees":1.5,
 	"LidarMaxVisualDistVariancePct": 0.33,
+	"LidarMaxAge":1.0,
 	"Altitude":19.0,
 	"MultithreadedPositioning":true,
 	"EstimatorMode":"PRECISE",
