@@ -14,8 +14,9 @@
 	"SmoothingCyclesPerImage":3,
 	"MinObjectConfidence":0.2,
 	"SavePositioningImages":true,
-	"SaveEmptyPositioningImages":true,
-	"XXX_Altitude":35.0,
+	"SaveEmptyPositioningImages":false,
+	"LogPositionFailures":true,
+	"LogDirectory":"/home/projects/matt/pilot_cache/logs",
 	"CacheLocations" : {
 		"Maps":"/home/matt/projects/pilot_cache/maps",
 		"Models":"/home/matt/projects/pilot_cache/models",
