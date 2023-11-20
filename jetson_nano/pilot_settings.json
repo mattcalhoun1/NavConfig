@@ -8,6 +8,7 @@
 	"LidarMaxVisualDistVariancePct": 0.33,
 	"LidarMaxAge":1.0,
 	"Altitude":19.0,
+	"AdjustForAltitude":false,
 	"MultithreadedPositioning":true,
 	"EstimatorMode":"PRECISE",
 	"SmoothingCyclesPerImage":3,
