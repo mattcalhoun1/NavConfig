@@ -10,7 +10,7 @@
 	"Altitude":19.0,
 	"AdjustForAltitude":false,
 	"MultithreadedPositioning":true,
-	"EstimatorMode":"PRECISE",
+	"EstimatorMode":"VERY_PRECISE",
 	"SmoothingCyclesPerImage":3,
 	"MinObjectConfidence":0.2,
 	"SavePositioningImages":true,
