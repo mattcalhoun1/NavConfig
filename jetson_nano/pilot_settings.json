@@ -31,7 +31,11 @@
 		"AdjustForAltitude":false,
 		"Multithreaded":true,
 		"EstimatorMode":"VERY_PRECISE",
-		"LogPositionFailures":true
+		"LogPositionFailures":true,
+		"MaxTargetConfidenceAttempts":3,
+		"MinPositionConfidence":"medium",
+		"PreferredPositionConfidence":"high",
+		"PositionRetryDelaySeconds":0.2
 	},
 	"CacheLocations" : {
 		"Maps":"/home/matt/projects/pilot_cache/maps",
