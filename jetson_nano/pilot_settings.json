@@ -15,8 +15,8 @@
 		"Minimum":2,
 		"Preferred":4,
 		"Tiers": {
-			"1": {
-				"Preferred":4,
+			"top": {
+				"Preferred":3,
 				"Minimum":1
 			}
 		},
@@ -46,14 +46,14 @@
 		"Right":{
 			"Config":"PI2_STD_HQ_CROPPED_0",
 			"DefaultHeading":123.0,
-			"AlternateHeadings":[100.0,180.0,230.0],
+			"AlternateHeadings":[180.0,230.0,100.0],
 			"Enabled":true,
 			"VehicleBaseId":1
 		},
 		"Left":{
 			"Config":"PI2_STD_HQ_CROPPED_1",
 			"DefaultHeading":57.0,
-			"AlternateHeadings":[80.0,0.0,-50.0],
+			"AlternateHeadings":[0.0,-50.0,80.0],
 			"Enabled":true,
 			"VehicleBaseId":0
 		}
