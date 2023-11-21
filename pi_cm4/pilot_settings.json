@@ -2,22 +2,36 @@
 	"Vehicle":"MecCar",
 	"Platform":"Pi CM4",
 	"NavServiceUrls":["http://localhost:8000","http://10.0.0.122:8000"],
-	"LidarEnabledPositioning":true,
-	"LidarEnabledSearch":true,
-	"LidarMaxDriftDegrees":1.5,
-	"LidarMaxVisualDistVariancePct": 0.33,
-	"LidarMaxAge":30.0,
 	"Altitude":10.5,
-	"AdjustForAltitude":false,
-	"MultithreadedPositioning":true,
-	"EstimatorMode":"VERY_PRECISE",
-	"xEstimatorMode":"PRECISE",
-	"SmoothingCyclesPerImage":3,
-	"MinObjectConfidence":0.2,
-	"SavePositioningImages":true,
-	"SaveEmptyPositioningImages":false,
-	"LogPositionFailures":true,
-	"LogDirectory":"/home/projects/matt/pilot_cache/logs",
+	"Lidar": {
+		"EnabledPositioning":true,
+		"EnabledSearch":true,
+		"MaxDriftDegrees":1.5,
+		"MaxVisualDistVariancePct": 0.33,
+		"MaxAge":1.0
+	},
+	"Landmarks": {
+		"Minimum":2,
+		"Preferred":4,
+		"Tiers": {
+			"1": {
+				"Preferred":4,
+				"Minimum":1
+			}
+		},
+		"Detection": {
+			"SmoothingCyclesPerImage":3,
+			"MinObjectConfidence":0.2,
+			"SavePositioningImages":true,
+			"SaveEmptyPositioningImages":false
+		}
+	},
+	"Positioning": {
+		"AdjustForAltitude":false,
+		"Multithreaded":true,
+		"EstimatorMode":"VERY_PRECISE",
+		"LogPositionFailures":true
+	},
 	"CacheLocations" : {
 		"Maps":"/home/matt/projects/pilot_cache/maps",
 		"Models":"/home/matt/projects/pilot_cache/models",
