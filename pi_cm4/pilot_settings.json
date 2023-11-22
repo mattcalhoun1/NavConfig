@@ -7,7 +7,7 @@
 	"Driving": {
 		"GoTargetPositionDistance":20,
 		"GoMaxSteps":5,
-		"GoSpeed":10.0
+		"GoSpeed":6.0
 		
 	},
 	"Lidar": {
