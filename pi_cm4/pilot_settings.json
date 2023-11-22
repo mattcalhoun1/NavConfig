@@ -3,8 +3,13 @@
 	"Platform":"Pi CM4",
 	"NavServiceUrls":["http://localhost:8000","http://10.0.0.122:8000"],
 	"Altitude":10.5,
-<<<<<<< HEAD
 	"LogDirectory":"/home/matt/projects/pilot_cache/logs",
+	"Driving": {
+		"GoTargetPositionDistance":20,
+		"GoMaxSteps":5,
+		"GoSpeed":10.0
+		
+	},
 	"Lidar": {
 		"EnabledPositioning":true,
 		"EnabledSearch":true,
@@ -38,18 +43,6 @@
 		"PreferredPositionConfidence":"high",
 		"PositionRetryDelaySeconds":0.2
 	},
-=======
-	"AdjustForAltitude":false,
-	"MultithreadedPositioning":true,
-	"EstimatorMode":"FAST",
-	"xEstimatorMode":"PRECISE",
-	"SmoothingCyclesPerImage":3,
-	"MinObjectConfidence":0.2,
-	"SavePositioningImages":true,
-	"SaveEmptyPositioningImages":false,
-	"LogPositionFailures":true,
-	"LogDirectory":"/home/projects/matt/pilot_cache/logs",
->>>>>>> e56e20349b2a7a7a3c37214400ceba62969dd040
 	"CacheLocations" : {
 		"Maps":"/home/matt/projects/pilot_cache/maps",
 		"Models":"/home/matt/projects/pilot_cache/models",
