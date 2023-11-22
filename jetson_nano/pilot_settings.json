@@ -3,6 +3,7 @@
 	"Platform":"Jetson Nano",
 	"NavServiceUrls":["http://192.168.0.100:8000","http://10.0.0.122:8000"],
 	"Altitude":19.0,
+<<<<<<< HEAD
 	"LogDirectory":"/home/matt/projects/pilot_cache/logs",
 	"Lidar": {
 		"EnabledPositioning":true,
@@ -37,6 +38,17 @@
 		"PreferredPositionConfidence":"high",
 		"PositionRetryDelaySeconds":0.2
 	},
+=======
+	"AdjustForAltitude":false,
+	"MultithreadedPositioning":true,
+	"EstimatorMode":"FAST",
+	"SmoothingCyclesPerImage":3,
+	"MinObjectConfidence":0.2,
+	"SavePositioningImages":true,
+	"SaveEmptyPositioningImages":false,
+	"LogPositionFailures":true,
+	"LogDirectory":"/home/projects/matt/pilot_cache/logs",
+>>>>>>> e56e20349b2a7a7a3c37214400ceba62969dd040
 	"CacheLocations" : {
 		"Maps":"/home/matt/projects/pilot_cache/maps",
 		"Models":"/home/matt/projects/pilot_cache/models",
