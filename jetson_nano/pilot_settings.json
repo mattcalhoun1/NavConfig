@@ -9,7 +9,7 @@
 		"EnabledSearch":true,
 		"MaxDriftDegrees":1.5,
 		"MaxVisualDistVariancePct": 0.33,
-		"MaxAge":1.0
+		"MaxAge":10.0
 	},
 	"Landmarks": {
 		"Minimum":2,
@@ -25,7 +25,9 @@
 			"MinObjectConfidence":0.2,
 			"SavePositioningImages":false,
 			"SaveEmptyPositioningImages":false,
-			"Multithreaded":true
+			"SaveSearchImages":true,
+			"MultithreadedPositioning":true,
+			"MultithreadedSearch":false
 		}
 	},
 	"Positioning": {
