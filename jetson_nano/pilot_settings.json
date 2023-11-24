@@ -23,7 +23,7 @@
 		"Detection": {
 			"SmoothingCyclesPerImage":3,
 			"MinObjectConfidence":0.2,
-			"SavePositioningImages":true,
+			"SavePositioningImages":false,
 			"SaveEmptyPositioningImages":false,
 			"Multithreaded":true
 		}
