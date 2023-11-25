@@ -10,13 +10,15 @@
 		"Length":20.0
 	},
 	"Driving": {
-		"MaxDistancePerLeg":0.2,
+		"MaxDistancePerLeg":0.5,
 		"MaxLegAttempts":5,
 		"GoCloseEnough":20.0,
 		"GoMaxLegs":15,
 		"GoSpeed":6.0,
 		"RotationMaxAttempts":10,
-		"RotationDegreeAllowance":3.0
+		"RotationDegreeAllowance":9.0,
+		"MaxPositioningAdjustments":2,
+		"PreferredPositionConfidence":"medium"
 	},
 	"Lidar": {
 		"EnabledPositioning":true,
@@ -38,10 +40,10 @@
 		"Detection": {
 			"SmoothingCyclesPerImage":3,
 			"MinObjectConfidence":0.2,
-			"SavePositioningImages":false,
-			"SaveEmptyPositioningImages":false,
+			"SavePositioningImages":true,
+			"SaveEmptyPositioningImages":true,
 			"SaveSearchImages":true,
-			"MultithreadedPositioning":true,
+			"MultithreadedPositioning":false,
 			"MultithreadedSearch":false
 		}
 	},
