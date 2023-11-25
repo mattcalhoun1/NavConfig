@@ -4,11 +4,19 @@
 	"NavServiceUrls":["http://localhost:8000","http://10.0.0.122:8000"],
 	"Altitude":10.5,
 	"LogDirectory":"/home/matt/projects/pilot_cache/logs",
+	"Vehicle" {
+		"Height":15.0,
+		"Width":12.0,
+		"Length":20.0
+	},
 	"Driving": {
-		"GoTargetPositionDistance":20,
-		"GoMaxSteps":5,
-		"GoSpeed":6.0
-		
+		"MaxDistancePerLeg":0.2,
+		"MaxLegAttempts":5,
+		"GoCloseEnough":20.0,
+		"GoMaxLegs":15,
+		"GoSpeed":6.0,
+		"RotationMaxAttempts":10,
+		"RotationDegreeAllowance":3.0
 	},
 	"Lidar": {
 		"EnabledPositioning":true,
