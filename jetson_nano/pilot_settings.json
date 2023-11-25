@@ -19,6 +19,7 @@
 	"Landmarks": {
 		"Minimum":2,
 		"Preferred":4,
+		"Maximum":4,
 		"Tiers": {
 			"top": {
 				"Preferred":3,
