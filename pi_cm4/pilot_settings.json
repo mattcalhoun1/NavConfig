@@ -17,7 +17,7 @@
 		"GoSpeed":6.0,
 		"RotationMaxAttempts":10,
 		"RotationDegreeAllowance":9.0,
-		"MaxPositioningAdjustments":2,
+		"MaxPositioningAdjustments":3,
 		"PreferredPositionConfidence":"medium"
 	},
 	"Lidar": {
@@ -40,10 +40,10 @@
 		"Detection": {
 			"SmoothingCyclesPerImage":3,
 			"MinObjectConfidence":0.2,
-			"SavePositioningImages":true,
-			"SaveEmptyPositioningImages":true,
+			"SavePositioningImages":false,
+			"SaveEmptyPositioningImages":false,
 			"SaveSearchImages":true,
-			"MultithreadedPositioning":false,
+			"MultithreadedPositioning":true,
 			"MultithreadedSearch":false
 		}
 	},
