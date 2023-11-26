@@ -13,7 +13,7 @@
 		"EnabledPositioning":true,
 		"EnabledSearch":true,
 		"MaxDriftDegrees":1.5,
-		"MaxVisualDistVariancePct": 0.33,
+		"MaxVisualDistVariancePct": 0.2,
 		"MaxAge":10.0
 	},
 	"Landmarks": {
