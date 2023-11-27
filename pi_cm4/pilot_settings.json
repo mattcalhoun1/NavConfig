@@ -10,9 +10,9 @@
 		"Length":20.0
 	},
 	"Driving": {
-		"MaxDistancePerLeg":0.5,
+		"MaxDistancePerLeg":0.7,
 		"MaxLegAttempts":5,
-		"GoCloseEnough":30.0,
+		"GoCloseEnough":35.0,
 		"GoMaxLegs":15,
 		"GoSpeed":6.0,
 		"RotationMaxAttempts":10,
@@ -41,17 +41,17 @@
 		"Detection": {
 			"SmoothingCyclesPerImage":3,
 			"MinObjectConfidence":0.2,
-			"SavePositioningImages":false,
+			"SavePositioningImages":true,
 			"SaveEmptyPositioningImages":false,
 			"SaveSearchImages":true,
-			"MultithreadedPositioning":true,
+			"MultithreadedPositioning":false,
 			"MultithreadedSearch":false
 		}
 	},
 	"Positioning": {
 		"AdjustForAltitude":false,
 		"Multithreaded":true,
-		"EstimatorMode":"VERY_PRECISE",
+		"EstimatorMode":"FAST",
 		"LogPositionFailures":true,
 		"MaxTargetConfidenceAttempts":3,
 		"MinPositionConfidence":"medium",
@@ -65,16 +65,16 @@
 	},
 	"Cameras": {
 		"Right":{
-			"Config":"PI3_STD_HQ_CROPPED_1",
+			"Config":"PI3_FULL_WIDTH_1",
 			"DefaultHeading":123.0,
-			"AlternateHeadings":[180.0,230.0,100.0],
+			"AlternateHeadings":[189.0,230.0],
 			"Enabled":true,
 			"VehicleBaseId":1
 		},
 		"Left":{
-			"Config":"PI3_STD_HQ_CROPPED_0",
+			"Config":"PI3_FULL_WIDTH_0",
 			"DefaultHeading":57.0,
-			"AlternateHeadings":[0.0,-50.0,80.0],
+			"AlternateHeadings":[-9.0,-50.0],
 			"Enabled":true,
 			"VehicleBaseId":0
 		}

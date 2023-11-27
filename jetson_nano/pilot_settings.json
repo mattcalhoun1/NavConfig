@@ -29,10 +29,10 @@
 		"Detection": {
 			"SmoothingCyclesPerImage":3,
 			"MinObjectConfidence":0.2,
-			"SavePositioningImages":false,
+			"SavePositioningImages":true,
 			"SaveEmptyPositioningImages":false,
 			"SaveSearchImages":true,
-			"MultithreadedPositioning":true,
+			"MultithreadedPositioning":false,
 			"MultithreadedSearch":false
 		}
 	},
