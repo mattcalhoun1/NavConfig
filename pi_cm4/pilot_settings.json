@@ -1,7 +1,7 @@
 {
 	"Vehicle":"MecCar",
 	"Platform":"Pi CM4",
-	"NavServiceUrls":["http://localhost:8000","http://10.0.0.122:8000"],
+	"NavServiceUrls":["http://10.0.0.122:8000","http://localhost:8000"],
 	"Altitude":10.5,
 	"LogDirectory":"/home/matt/projects/pilot_cache/logs",
 	"VehicleShape": {
